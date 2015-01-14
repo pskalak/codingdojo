@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<title>JQuery Ninjacat</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="ninjacat.css1.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+			console.log('you have loaded JQuery succesfully');
+
+			$('img').click(function(){
+			console.log('click event handler worked');
+			console.log('data-alt-src value is', $(this).attr('data-alt-src'));
+			var temp;
+			var temp=$(this).attr('data-alt-src');
+			console.log(temp);
+			$(this).attr('src', temp);
+			});
+
+			});
+		</script>
+	</head>
+
+	<body>
+		<div ID="wrapper">
+			<div ID="NINJACAT">
+				<h1>Disappearing Ninja</h1>
+				
+				<img src="ninja0.png" id="image1" data-alt-src="cat0.png">
+				<img src="ninja1.png" id="image2" data-alt-src="cat1.png">
+				<img src="ninja2.png" id="image3" data-alt-src="cat2.png">
+				<img src="ninja3.png" id="image4" data-alt-src="cat3.png">
+				<img src="ninja4.png" id="image5" data-alt-src="cat4.png">
+								
+				<p>Click the Ninja to tramsform him using the .attr (Attribute) JQuery function.</p>
+			</div>
+		</div>
+	</body>
+</html>	

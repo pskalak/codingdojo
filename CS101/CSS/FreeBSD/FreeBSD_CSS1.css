@@ -1,0 +1,112 @@
+/*browser reset follows*/
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	}
+
+/**{
+			outline: 1px solid lime;
+		}*/
+
+#wrapper {
+	width: 970px;
+	margin: 0 auto;
+}
+
+.header {
+		width: 975px;
+	background-color: #800000;
+	margin-left: -5px;
+	font-size: .5em;
+	border-color: white;
+								}
+
+.header p {
+	display: inline-block;
+		color: white;
+	}
+
+.header a{
+	color: yellow;
+	padding: 2px;
+}
+
+.search {
+	display: inline-block;
+	vertical-align: top;
+	width: 200px;
+	text-align: right;
+	color: white;
+	margin-left:  100px;	
+}
+
+.NavBar {
+	background-color: grey;
+	width:  970px;
+	text-indent: 35px;
+	font-size: .7em;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+/*.NavBar li{
+	display: inline;
+}
+
+.NavBar li+li{
+	border-left: 1px solid black;
+}*/
+
+.LeftNav {
+	width: 150px;
+	height: 250px;
+	background-color: grey;
+	display: inline-block;
+	margin-top: 20px;
+	padding: 25px;
+	color: #800000;
+}
+
+.LeftNav a{
+color: #800000; 	
+}
+
+.Main {
+	width: 745px;
+	background-color: white;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 20px;
+}
+
+.Main ul{
+	margin-left: 30px;
+}
+	
+.Main  h5{
+	color: #800000;
+	line-height: 50px
+}
+
+.Main  h6{
+	color: #800000;
+	line-height: 40px;
+	font-weight: bold;
+}
+
+.Main hr{
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    color: grey;
+    padding-top: 1px;
+}
+
+.Main a{
+	color: #800000;
+}

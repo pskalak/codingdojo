@@ -1,0 +1,71 @@
+
+browser reset follows
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	}
+/*
+*
+		{
+			outline: 1px solid lime;
+		}*/
+
+a:visited {
+    background-color: yellow;
+
+?
+
+.header {	
+	width: 970px;
+	background-color:#E8E8E8;
+	text-align: left;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 30px;
+	}		
+
+.leftbar {
+	line-height: 1.3em;	
+	color: blue;
+	width: 285px;
+	background-color:#E8E8E8;
+	text-align: left;
+	display: inline-block;
+	padding: 10px;
+	border-radius: 30px;
+	margin: 10px;
+	list-style-position: inside;
+		}	
+
+/*.circle a li{
+    list-style-type: circle;
+}*/
+		
+.leftbar ul li a {
+	text-decoration:none;
+	} 
+
+.leftbar a {
+	text-decoration:none;
+	} 
+
+.text {	
+	line-height: 1.3em;	
+	width: 640px;
+	background-color:#A8A8A8;
+	display: inline-block;
+	vertical-align: top;
+	padding: 10px;
+	border-radius: 30px;
+	margin: 10px;
+	list-style-position: inside;
+	}
+
+.footer {	
+	width: 970px;
+	background-color:#E8E8E8;
+	padding: 10px;
+	border-radius: 30px;
+	margin: 10px;
+}

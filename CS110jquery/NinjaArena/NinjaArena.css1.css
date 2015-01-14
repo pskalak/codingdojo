@@ -1,0 +1,108 @@
+/*Simple browser reset follows*/
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	}
+
+/*div {
+	outline: 1px dotted lime;
+}*/
+
+body {
+		background-color: black;
+		background-size: 100%;
+		background-repeat: no-repeat;		
+		}
+
+#WRAPPER {
+	width: 970px;
+	margin: 0 auto;
+	padding-top: 20%;
+	}
+
+	#Select_Arena {
+		width: 250px;
+		height: 150px;
+		margin: auto;
+		text-align: center;
+		background: rgba(76,76,76,0.8);
+		color: orange;
+		text-shadow: 1px 1px white;
+		border-radius: 7px;
+		vertical-align: middle;
+		padding-top: 30px;
+		}
+
+#Buttons{
+	width: 150px;
+	margin: 15% auto;
+	}
+
+button{
+	padding: 4px;
+	}
+
+}
+h1 {
+	margin-bottom: 10px;
+}	
+h1  {
+	margin-bottom: 10px;
+}
+body {
+	background: black;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.step2 {
+	display: none;
+}
+
+
+		
+
+
+
+
+	
+
+	
+
+
+
+	/*.red{
+	color: red;
+}
+
+		#AddClass button, #AddClass p {
+			display: inline-block;
+		}
+/*	div#After {
+		width: 970px;
+		height: 100px;
+		/*display: inline-block;
+			}
+
+		/*#After button, #After p {
+			display: inline-block;
+		}
+	div.#Append {
+		width: 970px;
+		height: 100px;
+		display: inline-block;
+	}
+		#Append button, #Append p {
+			display: inline-block;
+		}
+	div#Attr {
+		width: 970px;
+		height: 100px;
+		/*display: inline-block;*/
+	}
+		#Attr button, #Attr a {
+			display: inline-block;
+		}*/
+*/*/
+
+

@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<title>JQuery Ninjacat</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="NinjaArena.css1.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+			console.log('you have loaded JQuery succesfully');
+
+		var userBG;			
+
+		$('button').hover(function(){
+			console.log('button .hover event handler worked');
+
+			var bgimage = $(this).attr('data-img-src');
+
+				$('body').css('background-image', 'url("'+bgimage+'")');
+				},
+
+				function(){
+					if (!userBG) {
+						$('body').css('background-image', 'none');
+					}else{
+						$('body').css('background-image', 'url("'+userBG+'")');
+					}
+				})
+				.click(
+				function(){
+				console.log('button .click event handler for set background image worked');
+				userBG = $(this).attr('data-img-src');
+				$('body').css('background-image', 'url("'+userBG+'")');
+				});
+
+				function displayVals() {
+  				var singleValues = $("#player1").val();
+  				console.log(singleValues);
+  				};
+
+
+
+
+
+		});
+		</script>
+	</head>
+
+	<body>
+		<div ID="WRAPPER">
+			<div ID="Select_Arena">
+				<h1>Select Arena</h1>
+					<div ID="Buttons">
+						<button data-img-src="beach.jpg">beach</button>
+						<button data-img-src="calvinandhobbes.jpg">planet</button>
+						<button data-img-src="dojo.jpg">dojo</button>
+						<button data-img-src="forest.jpg">forest</button>
+						<button data-img-src="matrix.jpg">matrix</button>
+						<button data-img-src="snow.jpg">snow</button>
+					</div>
+
+
+					<h1 class="step2">Select Players</h1>
+		
+	<section class="step2">
+		<select ID="player1">
+<!-- 			<option disabled selected>Select Ninja:</option>
+-->			<option value="yellow.png">Yellow Ninja</option>
+			<option value="white.png">White Ninja</option>
+			<option value="black.png">Black Ninja</option>
+			<option value="green.png">Green Ninja</option>
+			<option value="red.png">Red Ninja</option>
+			<option value="leo.jpg">Leo Ninja</option>
+		</select>
+
+		<select ID="player2">
+<!-- 			<option disabled selected>Select Ninja:</option>
+-->			<option value="yellow.png">Yellow Ninja</option>
+			<option value="white.png">White Ninja</option>
+			<option value="black.png">Black Ninja</option>
+			<option value="green.png">Green Ninja</option>
+			<option value="red.png">Red Ninja</option>
+			<option value="leo.jpg">Leo Ninja</option>
+		</select>
+
+	</section>
+
+					</div>
+			</div>	
+		</div>
+	</body>
+</html>	
